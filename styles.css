@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.head-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(156, 245, 136);
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 400px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+input {
+    height: 35px;
+    width: 250px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+textarea {
+    height: 70px;
+    width: 250px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+textarea::placeholder {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder {
+    font-weight: 600;
+    color: black;
+}
+
+.inputButton {
+    height: 35px;
+    width: 150px;
+    background-color: rgb(25, 197, 25);
+    font-weight: 600;
+    border-color: rgb(25, 197, 25);
+}
+
+.inputButton:hover {
+    background-color: rgb(27, 219, 27);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.newNote{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 250px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-left: 8px;
+    margin-right: 20px;
+    background-color: rgb(156, 245, 136);
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 20px 300px 20px 300px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1250px) {
+
+    .content {
+        margin: 20px 250px 20px 250px;;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .content {
+        margin: 20px 200px 20px 200px;;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .content {
+        margin: 20px 150px 20px 150px;;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .content {
+        margin: 20px 150px 20px 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .newNote {
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .content {
+        margin: 20px 150px 20px 150px;;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .content {
+        margin: 20px 100px 20px 100px;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .content {
+        margin: 20px 50px 20px 50px;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .input-container {
+        height: 200px;
+        width: 350px;
+    }
+
+    .content {
+        margin: 20px 30px 20px 30px;
+    }
+
+}
+
+@media (max-width: 385px) {
+
+    .input-container {
+        height: 170px;
+        width: 300px;
+    }
+
+    .content {
+        margin: 20px 15px 20px 15px;
+    }
+
+    .newNote {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    textarea {
+        height: 55px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 330px) {
+
+    .input-container {
+        height: 150px;
+        width: 280px;
+    }
+
+    .content {
+        margin: 20px 10px 20px 10px;
+    }
+
+    .newNote {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    textarea {
+        height: 45px;
+        margin-bottom: 5px;
+    }
+
+}
+
+.trashIMG {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
